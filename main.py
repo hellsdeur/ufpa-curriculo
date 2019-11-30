@@ -160,7 +160,7 @@ def excelMaker(dictionary):
 #Os 4 primeiros parâmetros se tratam do caminho do curriculo em questão, do nome da root, e o nome dos dois childs em que serão buscados
 #os atributos, todos parâmetros após estes se trata dos atributos que desejamos inserir no excel.
 curr_Analise = gerar_trabalhos("curriculo.xml","TRABALHO-EM-EVENTOS",'DADOS-BASICOS-DO-TRABALHO', 'DETALHAMENTO-DO-TRABALHO', 'TITULO-DO-TRABALHO', 'ANO-DO-TRABALHO',
-                      'TITULO-DOS-ANAIS-OU-PROCEEDINGS', 'DOI', 'CIDADE-DO-EVENTO')
+                      'TITULO-DOS-ANAIS-OU-PROCEEDINGS', 'CIDADE-DO-EVENTO','DOI')
 
 
 #Recebe a variável anterior para criação do excel
